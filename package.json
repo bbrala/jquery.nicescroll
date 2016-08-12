@@ -1,5 +1,5 @@
 {
-  "name": "nicescroll",
+  "name": "jquery.nicescroll",
   "version": "3.6.8",
   "bugs": "http://github.com/inuyaksa/jquery.nicescroll/issues",
   "repository": {
@@ -11,15 +11,17 @@
     "name": "InuYaksa",
     "url": "https://github.com/inuyaksa"
   },
-  "licenses": "MIT",
-	"autoupdate": {
+  "licenses": [
+    "MIT"
+  ],
+  "autoupdate": {
     "source": "git",
     "target": "git://github.com/inuyaksa/jquery.nicescroll.git",
     "basePath": "dist",
     "files": [
       "**/*"
     ]
-  },	
+  },
   "description": "Nicescroll is a jquery plugin, for nice customizabled scrollbars with a very similar ios/mobile style. It supports DIVs, IFrames and document page (body) scrollbars. Compatible with Firefox 4+, Chrome 5+, Safari 4+ (win/mac), Opera 10+, IE 6+ (all A-grade browsers). Compatible with iOS devices as iPad, Android, Blackberry, Windows Phone, and many many mobile and touch devices.",
   "keywords": [
     "nicescroll",
@@ -66,11 +68,13 @@
   },
   "devDependencies": {},
   "npmName": "nicescroll",
-  "npmFileMap": [{
-    "basePath": "/dist/",
-    "files": [
-      "*.js",
-      "zoomico.png"
-    ]
-  }]
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js",
+        "zoomico.png"
+      ]
+    }
+  ]
 }
